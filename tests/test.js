@@ -33,7 +33,7 @@ describe("AritGeo", function() {
         it("should return all element should be numbers  for [0]", function() {
             assert.equal(myApp.aritGeo([0]), 'array[0] != 0 in geometric sequence');
         });
-        it("should return all element should be numbers  for [0]", function() {
+        it("should return not an array", function() {
             assert.equal(myApp.aritGeo(({ boy: 24 })), 'not an array');
         });
     })

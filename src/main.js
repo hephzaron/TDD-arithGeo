@@ -24,9 +24,9 @@ module.exports = {
         }
 
         // compare incremental value with array length
-        if (j == array.length - 1) {
+        if ((j == array.length - 1) && (array.length >= 2)) {
             return ("Arithmetic");
-        } else if (k == array.length - 1) {
+        } else if ((k == array.length - 1) && (array.length >= 2)) {
             return ("Geometric");
         } else if (array.length === 0) {
             return ("0");
