@@ -1,0 +1,22 @@
+{
+  "name": "tdd-aritgeo",
+  "version": "1.0.0",
+  "description": "AritGeo TDD",
+  "main": "src/main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "keywords": [
+    "TDD",
+    "Javascript"
+  ],
+  "author": "Daramola Tobi",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0"
+  }
+}
