@@ -21,5 +21,8 @@ describe("AritGeo", function() {
         it("should return undefined as aritGeo for [a,b]", function() {
             assert.equal(myApp.aritGeo([a, b]), 'undefined');
         });
+        it("should return all element should be numbers as aritGeo for [12,a,b,13,4]", function() {
+            assert.equal(myApp.aritGeo(), 'numbers only');
+        });
     })
 })
