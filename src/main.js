@@ -6,11 +6,11 @@ module.exports = {
     aritGeo: (array) => {
 
         // initialize variables j and k
-        var j = 0;
-        var k = 1;
+        let j = 0;
+        let k = 1;
 
         // use a for loop to test for equality between difference in nth and (n-1)th term
-        for (i = 0; i < array.length - 1; i++) {
+        for (let i = 0; i < array.length - 1; i++) {
 
             // perform test for arithmetic progression and increment j for each equality
             if ((array[1] - array[0]) == (array[i + 1] - array[i])) {
